@@ -5,9 +5,9 @@ import GithubButton from "@/components/atoms/githubButton";
 const App = () => {
   return (
     <Layout>
-      <section className="flex flex-col justify-center items-center text-center px-3">
-        <div className="flex gap-2 mb-2">
-          <h1 className="font-bold bg-gradient-to-br from-cyan-600 to-blue-700 dark:from-cyan-300 dark:to-blue-500 bg-clip-text text-transparent text-3xl">
+      <section className="flex flex-col items-center justify-center px-3 text-center">
+        <div className="mb-2 flex gap-2">
+          <h1 className="bg-gradient-to-br from-cyan-600 to-blue-700 bg-clip-text text-3xl font-bold text-transparent dark:from-cyan-300 dark:to-blue-500">
             Vite Starter
           </h1>
           <img src="/vite.svg" alt="Vite logo" />
@@ -16,7 +16,7 @@ const App = () => {
           Another Vite Starter with <u>ReactJS</u>, <u>Typescript</u>, <u>TailwindCSS</u>, and{" "}
           <u>Jotai</u>.
         </p>
-        <div className="flex gap-4 mt-3">
+        <div className="mt-3 flex gap-4">
           <DarkModeButton />
           <GithubButton />
         </div>
