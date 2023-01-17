@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
 
-export interface Children {
+export interface ChildrenProps {
   children: ReactNode[] | JSX.Element;
 }

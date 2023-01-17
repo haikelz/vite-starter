@@ -4,6 +4,14 @@
 </p>
 </div>
 
+## Stuff
+
+- React JS
+- Vite
+- Tailwind CSS for styling
+- Jotai for state management
+- Configured absolute import(see `vite.config.ts` and `tsconfig.json` for reference)
+
 ## Using this starter
 
 Just click **Use this template**, or:
