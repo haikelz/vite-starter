@@ -11,6 +11,7 @@
 - Tailwind CSS for styling
 - Jotai for state management
 - Configured absolute import(see `vite.config.ts` and `tsconfig.json` for reference)
+- Eslint, Prettier, and Commitizen
 
 ## Using this starter
 
