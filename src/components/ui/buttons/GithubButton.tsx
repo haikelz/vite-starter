@@ -4,7 +4,7 @@ import { twJoin } from "tailwind-merge";
 
 export const GithubButton = () => {
   return (
-    <a href="https://github.com/haikelz/vite-template" rel="noreferrer">
+    <a href="https://github.com/haikelz/vite-starter" rel="noreferrer noopener">
       <button
         className={twJoin(
           "flex items-center justify-center gap-2 rounded-md",
