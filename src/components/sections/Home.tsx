@@ -3,8 +3,8 @@ import { DarkModeButton, GithubButton } from "../ui/buttons";
 
 const Home = () => {
   return (
-    <section className="flex flex-col items-center justify-center px-3 text-center">
-      <div className="mb-2 flex gap-2">
+    <section className="flex flex-col items-center justify-center px-3 py-2">
+      <div className="mb-2 flex w-fit items-center justify-center space-x-2">
         <h1
           className={twJoin(
             "bg-gradient-to-br from-cyan-600 to-blue-700 bg-clip-text",
@@ -16,13 +16,15 @@ const Home = () => {
         </h1>
         <img src="/vite.svg" alt="Vite logo" />
       </div>
-      <p className="text-lg">
-        Another Vite Starter with <u>ReactJS</u>, <u>Typescript</u>, <u>TailwindCSS</u>, and{" "}
-        <u>Jotai</u>.
-      </p>
-      <div className="mt-3 flex gap-4">
-        <DarkModeButton />
-        <GithubButton />
+      <div className="flex w-fit flex-col items-center justify-center text-center">
+        <p className="text-lg">
+          Another Vite Starter with <u>ReactJS</u>, <u>Typescript</u>, <u>TailwindCSS</u>, and{" "}
+          <u>Jotai</u>.
+        </p>
+        <div className="mt-3 flex space-x-4">
+          <DarkModeButton />
+          <GithubButton />
+        </div>
       </div>
     </section>
   );

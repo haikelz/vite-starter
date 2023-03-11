@@ -1,5 +1,5 @@
-import Layout from "@/components/ui/layout";
-import Home from "@/components/sections/Home";
+import Layout from "~/components/ui/layout";
+import Home from "~/components/sections/Home";
 
 const App = () => {
   return (

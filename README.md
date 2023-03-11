@@ -18,7 +18,7 @@
 Just click **Use this template**, or:
 
 - Clone this repo `https://github.com/haikelz/vite-starter`
-- I'm using yarn, so if you use yarn too, just type `yarn install && yarn run dev`.
+- I'm using pnpm, so if you use pnpm too, just type `pnpm install && pnpm run dev`.
 - Go to `http://localhost:3000` and see the result.
 
-  If you use other package manager like npm or pnpm, remember to remove `yarn.lock`.
+  If you use other package manager like npm or yarn, remember to remove `pnpm.lock.yaml`.
