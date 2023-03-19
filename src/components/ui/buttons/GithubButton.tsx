@@ -2,9 +2,9 @@ import { memo } from "react";
 import { FaGithub } from "react-icons/fa";
 import { twJoin } from "tailwind-merge";
 
-export const GithubButton = () => {
+export function GithubButton() {
   return (
-    <a href="https://github.com/haikelz/vite-starter" rel="noreferrer noopener">
+    <a href="https://github.com/haikelz/vite-starter" rel="noopener noreferrer" target="_blank">
       <button
         type="button"
         aria-label="github"
@@ -20,6 +20,6 @@ export const GithubButton = () => {
       </button>
     </a>
   );
-};
+}
 
 memo(GithubButton);

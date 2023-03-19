@@ -1,7 +1,8 @@
 import { twJoin } from "tailwind-merge";
-import { DarkModeButton, GithubButton } from "../ui/buttons";
+import { DarkModeButton, GithubButton } from "~/components/ui/buttons";
+import { ViteIcon } from "~/components/ui/svg/ViteIcon";
 
-const Home = () => {
+export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center px-3 py-2">
       <div className="mb-2 flex w-fit items-center justify-center space-x-2">
@@ -14,12 +15,27 @@ const Home = () => {
         >
           Vite Starter
         </h1>
-        <img src="/vite.svg" alt="Vite logo" />
+        <ViteIcon />
       </div>
       <div className="flex w-fit flex-col items-center justify-center text-center">
         <p className="text-lg">
-          Another Vite Starter with <u>ReactJS</u>, <u>Typescript</u>, <u>TailwindCSS</u>, and{" "}
-          <u>Jotai</u>.
+          Another Vite Starter with{" "}
+          <a href="https://react.dev" rel="noopener noreferrer" target="_blank">
+            <u>React JS</u>
+          </a>
+          ,{" "}
+          <a href="https://typescriptlang.org/" rel="noopener noreferrer" target="_blank">
+            <u>Typescript</u>
+          </a>
+          ,{" "}
+          <a href="https://tailwindcss.com/" rel="noopener noreferrer" target="_blank">
+            <u>TailwindCSS</u>
+          </a>
+          ,{" "}
+          <a href="https://jotai.org/" rel="noopener noreferrer" target="_blank">
+            and <u>Jotai</u>
+          </a>
+          .
         </p>
         <div className="mt-3 flex space-x-4">
           <DarkModeButton />
@@ -28,6 +44,4 @@ const Home = () => {
       </div>
     </section>
   );
-};
-
-export default Home;
+}

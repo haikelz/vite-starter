@@ -3,7 +3,7 @@ import { memo } from "react";
 import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 import { twJoin } from "tailwind-merge";
 
-export const DarkModeButton = () => {
+export function DarkModeButton() {
   const [theme, setTheme] = useTheme();
 
   return (
@@ -22,6 +22,6 @@ export const DarkModeButton = () => {
       {theme === "dark" ? <MdOutlineLightMode size="20" /> : <MdOutlineDarkMode size="20" />}
     </button>
   );
-};
+}
 
 memo(DarkModeButton);
